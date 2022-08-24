@@ -1,0 +1,16 @@
+:root {
+  --red: #E32117;
+}
+
+.App {
+  /* text-align: center; */
+}
+
+.page-container {
+  width: 80%;
+  margin: auto;
+
+  @media screen and (max-width: 460px) {
+    width: 100%;
+  }
+}

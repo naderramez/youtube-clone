@@ -1,0 +1,25 @@
+.search-input-container {
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+
+  @media screen and (max-width: 460px) {
+    width: 100%;
+  }
+
+  input {
+    flex-grow: 1;
+  }
+
+  & .search-btn-container {
+    width: 40px;
+    background-color: #F8F8F8;
+    text-align: center;
+    border: solid 1px black;
+
+    @media screen and (max-width: 460px) {
+      background-color: transparent;
+      border: none;
+    }
+  }
+}
