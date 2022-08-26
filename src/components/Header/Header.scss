@@ -1,6 +1,7 @@
 .header-container {
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 
   @media screen and (max-width: 460px) {
     background-color: var(--red);
